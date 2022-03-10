@@ -1,0 +1,20 @@
+.parent {
+    display: inline;
+    margin: 36px;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    display: inline-block;
+    margin: 10px;
+    background: red;
+
+}
+
+span {
+    display: block;
+}

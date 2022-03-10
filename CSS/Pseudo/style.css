@@ -1,0 +1,123 @@
+
+.kubas, .staciakampis{
+    width: 50px;
+    height: 50px;
+    background: red;
+    margin-bottom: 10px;
+}
+.kubas {
+    border: 1px solid black;
+}
+.kubas div {
+    color: blue;
+}
+.kubas div div{
+    color: green;
+}
+.staciakampis {
+    width: 100px;
+    border: 3px solid rgb(100, 100, 143);
+}
+
+input[type=text] {
+    background: yellow;
+}
+
+input[type=number] {
+    background-color: green;
+}
+
+input[type=email] {
+    background-color: red;
+}
+
+/* a:visited {
+    color: green;
+} */
+a {
+    color:blueviolet
+}
+input:invalid {
+    color: white;
+}
+
+a:hover {
+    background: pink;
+}
+
+button:hover {
+    transform:scale(1.2);
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+border: 1px solid black;
+}
+
+tr:nth-of-type(odd) td:nth-of-type(even) {
+    background: red;
+}
+
+td:nth-of-type(odd) {
+    background-color: green;
+}
+td:nth-of-type(even) {
+    background-color: blue;
+}
+
+.element {
+    margin-top:20px;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.element::after {
+    content: "Tekstas";
+    position: absolute;
+    align-items: center;
+    top:0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+
+.parent {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background: violet;
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.grandchild {
+    width: 60px;
+    height: 60px;
+    background: white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.fixed {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: black;
+    bottom: 0;
+    right:0;
+}
