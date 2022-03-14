@@ -1,0 +1,83 @@
+.landing2 {
+    padding-top: 80px;
+    padding-left: 108px;
+    padding-right: 96px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+
+.uzrasas1 h2, .uzrasas2 h2, .uzrasas3 h2 {
+    font-size: 35px;
+    display: flex;
+    justify-content: first baseline;
+}
+
+.uzrasas1 h4, .uzrasas2 h4, .uzrasas3 h4 {
+    font-size: 25px;
+    display: flex;
+    justify-content: first baseline;
+}
+
+.kaire-puse {
+    position: relative;
+    /* text-align: center; */
+    color: white;
+
+}
+
+.desine-puse {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.uzrasas1 {
+    position: absolute;
+    top: 33px;
+    left: 21px;
+}
+.uzrasas2 {
+    position: absolute;
+    top: 32px;
+    left: 30px;
+}
+.uzrasas3 {
+    position: absolute;
+    bottom: 119px;
+    left: 30px;
+}
+
+.burgeris1 {
+    padding-bottom: 19px;
+}
+
+.burgeris2 {
+    padding-top: 19px;
+}
+
+.nuoroda {
+    height: 48px;
+    width: 218px;
+    display:block;
+    margin: auto;
+    /* justify-content: center;  */
+    padding: 16px 18px;
+    background-color: #ffc045;
+    margin-top: 72px;
+    margin-bottom: 40px;
+    margin-left: 45%;
+    margin-right: 45%;
+    }
+
+.nuoroda a {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 25px;
+    color: #3d2514;
+    font-weight: bold;
+}
+
