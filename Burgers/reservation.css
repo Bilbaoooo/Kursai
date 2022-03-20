@@ -1,0 +1,82 @@
+.reservation {
+    position: relative;
+    padding-bottom: 150px;
+    overflow:hidden;
+}
+
+.reservation img {
+    position: absolute;
+}
+
+.reservation img:first-of-type {
+    top: -20px;
+    left: -10px;
+}
+.reservation img:last-of-type {
+    right: -140px;
+    bottom: 0;
+}
+
+.reservation form {
+    max-width:786px;
+    padding: 24px;
+    margin: auto;
+    text-align: center;
+}
+
+.reservation h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    color: #3d2514;
+}
+
+.reservation h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+    color: #3d2514;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+
+.reservation .input-wraper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reservation input {
+    flex: 0 0 calc(50% - 24px);
+    margin:26px 12px;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    height: 65px;
+    padding: 0 24px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #3d3d3d;
+    
+}
+
+.reservation button {
+    flex: 0 0 calc(50% - 24px);
+    margin:26px 12px;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    height: 65px;
+    padding: 0 24px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    /* Kaip priversti teksta likti vienoje eiluteje */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+    background-color: #bf2222;
+    font-size: 21px;
+}
+
