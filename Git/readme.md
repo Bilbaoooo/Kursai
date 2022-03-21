@@ -1,1 +1,0 @@
-Pradejom mokytis Git
