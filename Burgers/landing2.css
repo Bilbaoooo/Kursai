@@ -81,6 +81,11 @@
     font-weight: bold;
 }
 
+.nuoroda:hover {
+    transform: scale(1.2);
+    transition: transform ease-in-out 200ms;
+}
+
 .topic h2 {
     font-family: 'Alfa Slab One', cursive;
     display: flex;

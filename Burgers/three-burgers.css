@@ -44,3 +44,8 @@
     height: 48px;
 
 }
+
+.single-burger img:hover {
+        transform: scale(1.2);
+        transition: transform ease-in-out 200ms;
+}

@@ -8,15 +8,10 @@ body {
 }
 header {
     display: flex;
-    /* margin: 50px 56px; */
     justify-content: space-between;
-    /* background:orange; */
     padding: 60px 56px;
     
 }
-/* .left-side {
-    margin-left: 60px;
-} */
 .logo {
     height: 58px;
 }
@@ -44,8 +39,11 @@ header {
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
     margin: 0 26px
-    
-    
+}
+
+.right-side nav a:hover {
+    color: aliceblue;
+    font-weight: 600 ;
 }
 
 .right-side nav a:last-child {
