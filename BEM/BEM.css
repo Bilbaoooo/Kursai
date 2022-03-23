@@ -1,0 +1,46 @@
+.registartion__form-button {
+    border: 1px solid black;
+    background: yellow;
+}
+
+.registartion__form-button--cancel {
+    background-color: red;
+}
+
+.registartion__form-button--confirm {
+    background-color: green;
+}
+
+
+
+
+
+
+.patvirtinimo__button-mygtukas {
+    border: 3px dashed red;
+    font-size: 14px;
+    height: 50px;
+    width: 140px;
+}
+
+.patvirtinimo__button-mygtukas--TAIP {
+    background-color: green;
+}
+.patvirtinimo__button-mygtukas--NE {
+    background-color: red;
+}
+
+
+
+.patvirtinimo__input-inputas {
+    height: 40px;
+    width: 100px;
+}
+
+.patvirtinimo__input-inputas--vardas {
+    text-transform: uppercase;
+}
+
+.patvirtinimo__input-inputas--pavarde {
+    text-transform: lowercase;
+}

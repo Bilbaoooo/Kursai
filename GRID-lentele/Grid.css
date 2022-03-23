@@ -1,0 +1,43 @@
+[class ^="box"] {
+    display: grid;
+    border: 2px solid red;
+    place-items: center;
+}
+ 
+ body {   
+        display: grid;
+        height: 100vh;
+        grid-template-areas:
+        "Header Header Header Header Header"
+        "b2 b3 b3 b3 b5"
+        "b2 b3 b3 b3 b5"
+        "b2 b4 b4 b4 b5"
+        "Footer Footer Footer Footer Footer";
+    
+        grid-gap:10px;
+    }
+
+.box1 {
+    grid-area: Header;
+}
+
+.box2 {
+    grid-area: b2;
+}
+
+.box3 {
+    grid-area: b3;
+    background: green;
+}
+
+.box4 {
+    grid-area: b4;
+}
+
+.box5 {
+    grid-area: b5;
+}
+
+.box6 {
+    grid-area: Footer;
+}
