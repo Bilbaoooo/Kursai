@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,700;1,100;1,500&display=swap');
+@import './theme';
+@import './utility';
+@import './Header/header';
+
+
+// font-family: 'Alfa Slab One', cursive;
+// font-family: 'Bebas Neue', cursive;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Roboto', sans-serif;
+$text-color: #1f373d;
+$primari: #ffcc01;
+$secondary:#919eb1;
+$third: #96bece;
+
+$text-size: 13px;
+
+$border-radius: 5px;
+$border-color: #1f373d;
+// _____THEME______________________________________________________________________
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1170px;
+    color: $text-color;
+}
+
+
+
+
+
+
+// _____Utility___________________________________________________________________________
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@mixin flex-layout ($horizontal:center, $vertical:center) {
+    display: flex;
+    justify-content: $horizontal;
+    align-items: $vertical;
+}
+
+// ______HEADER_____________________________________________________________________
+
+
+.header {
+    @include flex-layout(space-between, center);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 18px;
+    padding-right: 28px
+}
+
+.header__navigation {
+    @include flex-layout (flex-end, center);
+
+
+}
+
+.header__burger-menu {
+    width: 36px;
+    height: 36px;
+
+}
+
+.header__navigation-menu {
+    position: relative;
+    display: flex;
+    padding-right: 10px;
+
+
+    .header__navigation-links {
+        display: none;
+        position: absolute;
+        top: 30px;
+        right: 0;
+
+    }
+
+
+    &:hover {
+        .header__navigation-links {
+            @include flex-layout();
+            flex-direction: column;
+            margin-right: -30px;
+        }
+    }
+}
+
+.header__navigation-link {
+    width: 100%;
+    font-size: $text-size;
+    color: $text-color;
+    font-weight: 400;
+    padding: 16px 16px 14px;
+
+}
+
+.border__getting-start-wrapper {
+    order: -1;
+    display: none;
+    // display: none;
+}
+
+.header__getting-started-button {
+    background: $primari;
+    border-radius: $border-radius;
+    padding: 15px 22px 16px;
+    margin-right: 26px;
+}
+
+@media (max-width: 768px) {
+    .border__getting-start-wrapper {
+        @include flex-layout()
+    }
+}
+
+// @media (max-width: &mobile)
+
+// @media (max-width: &tablet)
+
+
+// _______Section search_________________________________________________
+
+.search {
+    position: relative;
+    @include flex-layout (flex-end, flex-end);
+}
+
+.search__box {
+    position: absolute;
+    @include flex-layout (flex-start, flex-start);
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 290px;
+    height: 132px;
+
+    // width:580px;
+    // height:264px;
+    .search__heading {
+        // font-size: 62px;
+        font-size: 36px;
+        // padding-bottom: 60px;
+        padding-bottom: 25px;
+        // align-content: space-between;
+    }
+
+    .search__locations {
+        @include flex-layout(flex-start, center);
+
+
+        input {
+            width: 200px;
+            height: 60px;
+            padding: 18px 32px 17px;
+            font-size: 15px;
+            color: $secondary;
+            border: none;
+            border-top-left-radius: 5%;
+            border-bottom-left-radius: 5%;
+        }
+
+        img {
+            position: absolute;
+            // top: 50%;
+            left: 10px;
+            pointer-events: none;
+        }
+
+        button {
+            height: 60px;
+            background-color: $primari;
+            border: none;
+            // width:116; height:71;
+            width: 80px;
+            border-top-right-radius: 5%;
+            border-bottom-right-radius: 5%;
+        }
+    }
+}
+
+
+
+
+.search__blue-box {
+    @include flex-layout (flex-end, flex-end);
+    height: 300px;
+    width: 80%;
+    background: $third;
+
+
+    .search__contacts {
+        max-width: 270px;
+        @include flex-layout (flex-start, flex-start);
+        background-color: $primari;
+        flex-direction: column;
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    .search__contact {
+        @include flex-layout();
+        flex-direction: row;
+
+        img {
+            height: 25px;
+            width: 20px;
+            border-right: 5px;
+        }
+
+        span {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            padding: 5px;
+        }
+
+    }
+}
+
+.search__scroll-down {
+    position: absolute;
+    left: 0;
+    bottom: -10;
+
+}

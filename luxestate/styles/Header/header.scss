@@ -1,0 +1,75 @@
+
+// .header {
+//     @include flex-layout(space-between, center);
+//     padding-top:24px;
+//     padding-bottom:24px;
+//     padding-left: 18px;
+//     padding-right: 28px
+// }
+
+// .header__navigation {
+//     @include flex-layout (flex-end, center);
+
+
+// }
+
+// .header__burger-menu {
+//     width: 36px;
+//     height: 36px;
+    
+// }
+
+// .header__navigation-menu {
+//     position: relative;
+//     display: flex;
+//     padding-right: 10px;
+
+
+//     .header__navigation-links {
+//         display: none;
+//         position: absolute;
+//         top: 30px;
+//         right: 0;
+
+//     }
+
+
+//     &:hover {
+//         .header__navigation-links {
+//             @include flex-layout();
+//             flex-direction: column;
+//             margin-right: -30px;
+//         }
+//     }
+// }
+
+// .header__navigation-link {
+//     font-size: $text-size;
+//     color: $text-color;
+//     font-weight: 400;
+//     padding: 16px 16px 14px; 
+    
+// }
+
+// .border__getting-start-wrapper {
+//     order:-1;
+//     display: none;
+//     // display: none;
+// }
+
+// .header__getting-started-button {
+//     background: $primari;
+//     border-radius: $border-radius;
+//     padding: 15px 22px 16px;
+//     margin-right: 26px;
+// }
+
+// @media (max-width: 768px) {
+//     .border__getting-start-wrapper {
+//         @in
+//     }
+// }
+
+// // @media (max-width: &mobile)
+
+// // @media (max-width: &tablet)
